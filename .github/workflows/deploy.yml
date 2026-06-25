@@ -23,7 +23,7 @@ jobs:
       - name: Upload Website Files
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.' # Uploads everything in the root directory (index.html, styles.css)
+          path: './mini-cicd' # Uploads everything in the root directory (index.html, styles.css)
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
